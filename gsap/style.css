@@ -9,17 +9,14 @@ body {
   background-color: #f4fbf8;
 }
 .banner {
-  padding: 2.5rem;
+  padding: 2rem;
   background-color: #5f5449;
 }
-.header-img {
-  height: 100vh;
-  padding: 2rem;
-  background-image: url(/imgs/green.jpg);
-  opacity: 50%;
-  object-fit: cover;
+.sectionlabel {
+  padding: 1rem;
 }
 .title {
   text-align: center;
   background-color: transparent;
+  height: 100vh;
 }
