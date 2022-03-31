@@ -18,8 +18,5 @@ body {
 .title {
   text-align: center;
   background-color: transparent;
+  height: 100vh;
 }
-/* .bannerimg {
-  height: 50rem;
-  opacity: 50%;
-} */
