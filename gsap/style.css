@@ -14,9 +14,22 @@ body {
 }
 .sectionlabel {
   padding: 1rem;
+  text-decoration: none;
+  text-align: right;
 }
+.sectionlabel::visited {
+  text-decoration: none;
+}
+
 .title {
   text-align: center;
+  margin: auto;
   background-color: transparent;
-  height: 100vh;
+}
+.bannerimg {
+  width: 100vw;
+  height: 75rem;
+  object-fit: cover;
+  opacity: 50%;
+  position: relative;
 }
