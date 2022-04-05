@@ -4,22 +4,24 @@ body,
   font-size: 10px;
   margin: 0;
   padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Red Rose", cursive;
 }
 body {
   background-color: #f4fbf8;
 }
 .banner {
-  padding: 2rem;
+  height: 6rem;
   background-color: #5f5449;
   position: fixed;
   width: 100vw;
   z-index: 50;
 }
 .sectionlabel {
-  margin: 1rem;
+  margin: auto;
   text-decoration: none;
   color: #f4fbf8;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .sectionlabel::visited {
   text-decoration: none;
@@ -28,15 +30,16 @@ body {
 .title {
   position: absolute;
   top: 50%;
-  left: 50%;
+  text-align: center;
   background-color: transparent;
   font-size: 10rem;
   z-index: 20;
-  color: #554135;
+  color: #5f5449;
+  font-family: "Open Sans", sans-serif;
 }
 .bannerimg {
   height: 100vh;
   width: 100vw;
-  object-fit: contain;
+  object-fit: cover;
   opacity: 50%;
 }
