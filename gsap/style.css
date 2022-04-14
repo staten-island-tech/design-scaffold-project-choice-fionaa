@@ -30,7 +30,7 @@ body {
 .title {
   position: absolute;
   top: 50%;
-  text-align: center;
+  left: 50%;
   background-color: transparent;
   font-size: 10rem;
   z-index: 20;
