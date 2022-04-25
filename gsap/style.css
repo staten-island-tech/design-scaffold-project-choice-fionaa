@@ -4,24 +4,24 @@ body,
   font-size: 10px;
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
-  font-family: "Red Rose", cursive;
+  /*   font-family: "Open Sans", sans-serif;*/
+  box-sizing: border-box;
 }
 body {
   background-color: #f4fbf8;
 }
 .banner {
-  height: 6rem;
   background-color: #5f5449;
   position: fixed;
   width: 100vw;
   z-index: 50;
+  padding: 1rem;
 }
 .sectionlabel {
   color: #f4fbf8;
   font-size: 2rem;
-  text-align: right;
   margin: 1rem;
+  text-decoration: none;
 }
 .sectionlabel::visited {
   text-decoration: none;
@@ -36,7 +36,6 @@ body {
   font-size: 10rem;
   z-index: 20;
   color: #5f5449;
-  font-family: "Open Sans", sans-serif;
 }
 .bannerimg {
   height: 100vh;
@@ -44,10 +43,9 @@ body {
   object-fit: cover;
   opacity: 50%;
 }
-.subtitle{
+.subtitle {
   padding: 1rem;
   text-align: center;
-  font-size: 5rem;
-  font-family: "Red Rose";
-
+  font-size: 3rem;
+  border-bottom: 1px solid #5f5449;
 }
