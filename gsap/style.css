@@ -55,10 +55,15 @@ body {
   margin: 1rem;
   text-align: center;
   width: fit-content;
-  font-size: 5rem;
+  font-size: 6rem;
 }
 .cardimg {
-  height: 20rem;
-  width: 20rem;
+  height: 30rem;
+  width: 30rem;
   object-fit: cover;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
