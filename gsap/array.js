@@ -1,6 +1,6 @@
 const menu = [
   {
-    img: "",
+    img: "/imgs/Koreaan-Home-Cafe-Drinks6.jpg",
     name: "",
   },
   {
