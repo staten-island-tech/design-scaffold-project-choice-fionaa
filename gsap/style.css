@@ -7,11 +7,23 @@ body,
   box-sizing: border-box;
   /*   font-family: "Open Sans", sans-serif;*/
 }
+:root {
+  --white: #ffffff;
+
+  --1-light: #f4fbf8;
+  --1-medium: #cedfd9;
+  --1-dark: #5f5449;
+
+  --2-light: #faf8f7;
+  --2-medium: #e4ccb4;
+  --2-dark: #573818;
+}
+
 body {
-  background-color: #f4fbf8;
+  background-color: var(--light);
 }
 .banner {
-  background-color: #5f5449;
+  background-color: var(--dark);
   position: fixed;
   width: 100vw;
   z-index: 50;
@@ -66,10 +78,4 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-}
-:root {
-  --green-bg: #f4fbf8;
-  --green-banner: #5f5449;
-  --green-titles: #5f5449;
-  --green-bannertext: #;
 }
